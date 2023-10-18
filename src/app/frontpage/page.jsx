@@ -87,9 +87,11 @@ export default function frontpage() {
   return (
     <div className='mt-32'>
       <div className="flex gap-x-4">
-        <img src="/img/logo_psdkp.png" 
+        <Image src="/img/logo_psdkp.png" 
              alt=""
-             className='w-16 h-16 rounded-full object-cover'
+             width={100} // Placeholder width
+             height={100} // Placeholder height
+             className='rounded-full object-cover'
         />
 
         <div>
