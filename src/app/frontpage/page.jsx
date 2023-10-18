@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import Link from "next/link";
 import { PiLockThin } from "react-icons/pi";
 import Image from "next/image";
-import Status from "@/app/status/page"
 import { motion } from "framer-motion";
 import useDownloader from "react-use-downloader";
 
@@ -103,7 +102,6 @@ export default function frontpage() {
                     Surabaya 2023
                 </span>
             </Link>
-            <Status isAvailable/>
         </div>
       </div>
 
