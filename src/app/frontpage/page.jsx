@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react'
+import React from "react";
 import Link from "next/link";
 import { PiLockThin } from "react-icons/pi";
 import Image from "next/image";
@@ -80,8 +80,7 @@ const projects = [
 
 
 export default function frontpage() {
-  const [show, setShow] = useState(link[0])
-  
+
  
   return (
     <div className='mt-32'>
